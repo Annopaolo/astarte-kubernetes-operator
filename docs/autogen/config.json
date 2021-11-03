@@ -1,0 +1,29 @@
+{
+    "hideMemberFields": [
+        "TypeMeta"
+    ],
+    "hideTypePatterns": [
+        "ParseError$",
+        "List$"
+    ],
+    "externalPackages": [
+        {
+            "typeMatchPrefix": "^k8s\\.io/(api|apimachinery/pkg/apis)/",
+            "docsURLTemplate": "https://v1-19.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#{{lower .TypeIdentifier}}-{{arrIndex .PackageSegments -1}}-{{arrIndex .PackageSegments -2}}"
+        },
+        {
+            "typeMatchPrefix": "^k8s\\.io/apimachinery/pkg/api/",
+            "docsURLTemplate": "https://v1-19.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#{{lower .TypeIdentifier}}-{{arrIndex .PackageSegments -1}}-{{arrIndex .PackageSegments -2}}"
+        },
+        {
+            "typeMatchPrefix": "^github\\.com/astarte-platform/astarte-kubernetes-operator/external/voyager/",
+            "docsURLTemplate": "https://pkg.go.dev/github.com/appscode/voyager/apis/voyager/{{arrIndex .PackageSegments -1}}#{{.TypeIdentifier}}"
+        }
+    ],
+    "typeDisplayNamePrefixOverrides": {
+        "k8s.io/api/": "Kubernetes ",
+        "k8s.io/apimachinery/pkg/apis/": "Kubernetes ",
+        "k8s.io/apimachinery/pkg/api/": "Kubernetes "
+    },
+    "markdownDisabled": false
+}

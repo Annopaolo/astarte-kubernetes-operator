@@ -199,6 +199,31 @@ bundle: manifests kustomize ## Generate bundle manifests and metadata, then vali
 bundle-build: ## Build the bundle image.
 	docker build -f bundle.Dockerfile -t $(BUNDLE_IMG) .
 
+##@ Docs
+
+.PHONY: gen-crd-api-reference-docs
+gen-crd-api-reference-docs: ## Download gen-crd-api-reference-docs locally if necessary.
+ifeq (, $(shell which gen-crd-api-reference-docs))
+	@{ \
+	set -e ;\
+	DOCS_GEN_TMP_DIR=$$(mktemp -d) ;\
+	cd $$DOCS_GEN_TMP_DIR ;\
+	go mod init tmp ;\
+	go get github.com/ahmetb/gen-crd-api-reference-docs ;\
+	rm -rf $$DOCS_GEN_TMP_DIR ;\
+	}
+DOCS_GEN=$(GOBIN)/gen-crd-api-reference-docs
+else
+DOCS_GEN=$(shell which gen-crd-api-reference-docs)
+endif
+
+DOCS_GEN_ARGS := -config docs/autogen/config.json -template-dir docs/autogen/template 
+.PHONY: api-docs
+api-docs: gen-crd-api-reference-docs ## Generate API reference documentation from code.
+	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/api/v1alpha1" -out-file docs/api-v1alpha1.md
+	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/api/v1alpha2" -out-file docs/api-v1alpha2.md
+	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/ingress/v1alpha1" -out-file docs/ingress-v1alpha1.md
+
 ##@ Linter
 
 .PHONY: lint

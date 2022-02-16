@@ -6,11 +6,9 @@
         title = "{{- packageAnchorID . -}}"
         type = "docs"
         
-            {{ with (index .GoPackages 0 )}}
-                {{ with .DocComments }}
-                    description = {{ . }}
-                {{ end }}
-            {{ end }}
+        {{ with (index .GoPackages 0 )}}
+                description = "{{ index .DocComments 0 }}"
+        {{ end }}
 
         +++
     {{ end }}

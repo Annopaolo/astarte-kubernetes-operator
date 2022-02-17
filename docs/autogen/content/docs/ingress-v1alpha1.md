@@ -504,5 +504,5 @@ and AstarteDefaultIngressDashboardSpec.</p>
 <hr/>
 <p><em>
 Generated with <code>gen-crd-api-reference-docs</code>
-on git commit <code>7d90845</code>.
+on git commit <code>2725e75</code>.
 </em></p>

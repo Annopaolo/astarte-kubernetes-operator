@@ -1,21 +1,21 @@
 +++
-title = "api.astarte-platform.org/v1alpha1"
+title = "api.astarte-platform.org/v1alpha2"
 type = "docs"
-description = "Package v1alpha1 contains API Schema definitions for the api v1alpha1 API group"
+description = "Package v1alpha2 contains API Schema definitions for the api v1alpha2 API group"
 +++
 <p>Packages:</p>
 <ul>
 <li>
-<a href="#api.astarte-platform.org%2fv1alpha1">api.astarte-platform.org/v1alpha1</a>
+<a href="#api.astarte-platform.org%2fv1alpha2">api.astarte-platform.org/v1alpha2</a>
 </li>
 </ul>
-<h2 id="api.astarte-platform.org/v1alpha1">api.astarte-platform.org/v1alpha1</h2>
+<h2 id="api.astarte-platform.org/v1alpha2">api.astarte-platform.org/v1alpha2</h2>
 <div>
-<p>Package v1alpha1 contains API Schema definitions for the api v1alpha1 API group</p>
+<p>Package v1alpha2 contains API Schema definitions for the api v1alpha2 API group</p>
 </div>
 Resource Types:
 <ul></ul>
-<h3 id="api.astarte-platform.org/v1alpha1.Astarte">Astarte
+<h3 id="api.astarte-platform.org/v1alpha2.Astarte">Astarte
 </h3>
 <div>
 <p>Astarte is the Schema for the astartes API</p>
@@ -46,7 +46,7 @@ Refer to the Kubernetes API documentation for the fields of the
 <td>
 <code>spec</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">
 AstarteSpec
 </a>
 </em>
@@ -120,7 +120,7 @@ Kubernetes apps/v1.DeploymentStrategy
 <td>
 <code>features</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteFeatures">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteFeatures">
 AstarteFeatures
 </a>
 </em>
@@ -155,7 +155,7 @@ string
 <td>
 <code>api</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteAPISpec">
 AstarteAPISpec
 </a>
 </em>
@@ -167,7 +167,7 @@ AstarteAPISpec
 <td>
 <code>rabbitmq</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQSpec">
 AstarteRabbitMQSpec
 </a>
 </em>
@@ -180,7 +180,7 @@ AstarteRabbitMQSpec
 <td>
 <code>cassandra</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraSpec">
 AstarteCassandraSpec
 </a>
 </em>
@@ -193,7 +193,7 @@ AstarteCassandraSpec
 <td>
 <code>vernemq</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVerneMQSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVerneMQSpec">
 AstarteVerneMQSpec
 </a>
 </em>
@@ -205,7 +205,7 @@ AstarteVerneMQSpec
 <td>
 <code>cfssl</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">
 AstarteCFSSLSpec
 </a>
 </em>
@@ -218,7 +218,7 @@ AstarteCFSSLSpec
 <td>
 <code>components</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">
 AstarteComponentsSpec
 </a>
 </em>
@@ -231,7 +231,7 @@ AstarteComponentsSpec
 <td>
 <code>astarteSystemKeyspace</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteSystemKeyspaceSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteSystemKeyspaceSpec">
 AstarteSystemKeyspaceSpec
 </a>
 </em>
@@ -262,7 +262,7 @@ know exactly what you are doing.</p>
 <td>
 <code>status</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteStatus">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteStatus">
 AstarteStatus
 </a>
 </em>
@@ -272,10 +272,10 @@ AstarteStatus
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteAPISpec">AstarteAPISpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteAPISpec">AstarteAPISpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 </div>
@@ -310,10 +310,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteAppengineAPISpec">AstarteAppengineAPISpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteAppengineAPISpec">AstarteAppengineAPISpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec</a>)
 </p>
 <div>
 </div>
@@ -329,7 +329,7 @@ string
 <td>
 <code>AstarteGenericAPISpec</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericAPISpec">
 AstarteGenericAPISpec
 </a>
 </em>
@@ -379,10 +379,10 @@ customized RabbitMQ. It is advised to leave empty unless you know exactly what y
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningCAConstraintSpec">AstarteCFSSLCARootConfigSigningCAConstraintSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningCAConstraintSpec">AstarteCFSSLCARootConfigSigningCAConstraintSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningDefaultSpec">AstarteCFSSLCARootConfigSigningDefaultSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningDefaultSpec">AstarteCFSSLCARootConfigSigningDefaultSpec</a>)
 </p>
 <div>
 </div>
@@ -426,10 +426,10 @@ bool
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningDefaultSpec">AstarteCFSSLCARootConfigSigningDefaultSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningDefaultSpec">AstarteCFSSLCARootConfigSigningDefaultSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningSpec">AstarteCFSSLCARootConfigSigningSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningSpec">AstarteCFSSLCARootConfigSigningSpec</a>)
 </p>
 <div>
 </div>
@@ -465,7 +465,7 @@ string
 <td>
 <code>ca_constraint</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningCAConstraintSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningCAConstraintSpec">
 AstarteCFSSLCARootConfigSigningCAConstraintSpec
 </a>
 </em>
@@ -475,10 +475,10 @@ AstarteCFSSLCARootConfigSigningCAConstraintSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningSpec">AstarteCFSSLCARootConfigSigningSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningSpec">AstarteCFSSLCARootConfigSigningSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSpec">AstarteCFSSLCARootConfigSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSpec">AstarteCFSSLCARootConfigSpec</a>)
 </p>
 <div>
 </div>
@@ -494,7 +494,7 @@ AstarteCFSSLCARootConfigSigningCAConstraintSpec
 <td>
 <code>default</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningDefaultSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningDefaultSpec">
 AstarteCFSSLCARootConfigSigningDefaultSpec
 </a>
 </em>
@@ -504,10 +504,10 @@ AstarteCFSSLCARootConfigSigningDefaultSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSpec">AstarteCFSSLCARootConfigSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSpec">AstarteCFSSLCARootConfigSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">AstarteCFSSLSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">AstarteCFSSLSpec</a>)
 </p>
 <div>
 </div>
@@ -523,7 +523,7 @@ AstarteCFSSLCARootConfigSigningDefaultSpec
 <td>
 <code>signing</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSigningSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSigningSpec">
 AstarteCFSSLCARootConfigSigningSpec
 </a>
 </em>
@@ -533,10 +533,10 @@ AstarteCFSSLCARootConfigSigningSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCACASpec">AstarteCFSSLCSRRootCACASpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCACASpec">AstarteCFSSLCSRRootCACASpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec</a>)
 </p>
 <div>
 </div>
@@ -560,10 +560,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCAKeySpec">AstarteCFSSLCSRRootCAKeySpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCAKeySpec">AstarteCFSSLCSRRootCAKeySpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec</a>)
 </p>
 <div>
 </div>
@@ -597,10 +597,10 @@ int
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCANamesSpec">AstarteCFSSLCSRRootCANamesSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCANamesSpec">AstarteCFSSLCSRRootCANamesSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec</a>)
 </p>
 <div>
 </div>
@@ -664,10 +664,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCASpec">AstarteCFSSLCSRRootCASpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">AstarteCFSSLSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">AstarteCFSSLSpec</a>)
 </p>
 <div>
 </div>
@@ -693,7 +693,7 @@ string
 <td>
 <code>key</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCAKeySpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCAKeySpec">
 AstarteCFSSLCSRRootCAKeySpec
 </a>
 </em>
@@ -705,7 +705,7 @@ AstarteCFSSLCSRRootCAKeySpec
 <td>
 <code>names</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCANamesSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCANamesSpec">
 []AstarteCFSSLCSRRootCANamesSpec
 </a>
 </em>
@@ -717,7 +717,7 @@ AstarteCFSSLCSRRootCAKeySpec
 <td>
 <code>ca</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCACASpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCACASpec">
 AstarteCFSSLCSRRootCACASpec
 </a>
 </em>
@@ -727,10 +727,10 @@ AstarteCFSSLCSRRootCACASpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLDBConfigSpec">AstarteCFSSLDBConfigSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLDBConfigSpec">AstarteCFSSLDBConfigSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">AstarteCFSSLSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">AstarteCFSSLSpec</a>)
 </p>
 <div>
 </div>
@@ -764,10 +764,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">AstarteCFSSLSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">AstarteCFSSLSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 </div>
@@ -840,7 +840,7 @@ string
 <td>
 <code>dbConfig</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLDBConfigSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLDBConfigSpec">
 AstarteCFSSLDBConfigSpec
 </a>
 </em>
@@ -889,7 +889,7 @@ string
 <td>
 <code>storage</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstartePersistentStorageSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstartePersistentStorageSpec">
 AstartePersistentStorageSpec
 </a>
 </em>
@@ -902,7 +902,7 @@ AstartePersistentStorageSpec
 <td>
 <code>csrRootCa</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCSRRootCASpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCSRRootCASpec">
 AstarteCFSSLCSRRootCASpec
 </a>
 </em>
@@ -915,7 +915,7 @@ AstarteCFSSLCSRRootCASpec
 <td>
 <code>caRootConfig</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLCARootConfigSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLCARootConfigSpec">
 AstarteCFSSLCARootConfigSpec
 </a>
 </em>
@@ -926,10 +926,10 @@ AstarteCFSSLCARootConfigSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCassandraConnectionSpec">AstarteCassandraConnectionSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCassandraConnectionSpec">AstarteCassandraConnectionSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraSpec">AstarteCassandraSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraSpec">AstarteCassandraSpec</a>)
 </p>
 <div>
 </div>
@@ -967,7 +967,7 @@ bool
 <td>
 <code>sslConfiguration</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraSSLConfigurationSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraSSLConfigurationSpec">
 AstarteCassandraSSLConfigurationSpec
 </a>
 </em>
@@ -980,7 +980,7 @@ AstarteCassandraSSLConfigurationSpec
 <td>
 <code>secret</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.LoginCredentialsSecret">
+<a href="#api.astarte-platform.org/v1alpha2.LoginCredentialsSecret">
 LoginCredentialsSecret
 </a>
 </em>
@@ -1013,10 +1013,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCassandraSSLConfigurationSpec">AstarteCassandraSSLConfigurationSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCassandraSSLConfigurationSpec">AstarteCassandraSSLConfigurationSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraConnectionSpec">AstarteCassandraConnectionSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraConnectionSpec">AstarteCassandraConnectionSpec</a>)
 </p>
 <div>
 </div>
@@ -1076,10 +1076,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteCassandraSpec">AstarteCassandraSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteCassandraSpec">AstarteCassandraSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 </div>
@@ -1095,7 +1095,7 @@ string
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -1143,7 +1143,7 @@ string
 <td>
 <code>storage</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstartePersistentStorageSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstartePersistentStorageSpec">
 AstartePersistentStorageSpec
 </a>
 </em>
@@ -1156,7 +1156,7 @@ AstartePersistentStorageSpec
 <td>
 <code>connection</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraConnectionSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraConnectionSpec">
 AstarteCassandraConnectionSpec
 </a>
 </em>
@@ -1167,10 +1167,10 @@ AstarteCassandraConnectionSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteClusterHealth">AstarteClusterHealth
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteClusterHealth">AstarteClusterHealth
 (<code>string</code> alias)</h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteStatus">AstarteStatus</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteStatus">AstarteStatus</a>)
 </p>
 <div>
 <p>AstarteClusterHealth represents the overall health of the cluster</p>
@@ -1193,7 +1193,7 @@ AstarteCassandraConnectionSpec
 </td>
 </tr></tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteComponent">AstarteComponent
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteComponent">AstarteComponent
 (<code>string</code> alias)</h3>
 <div>
 <p>AstarteComponent describes an internal Astarte Component</p>
@@ -1240,10 +1240,10 @@ AstarteCassandraConnectionSpec
 </td>
 </tr></tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 </div>
@@ -1273,7 +1273,7 @@ Kubernetes core/v1.ResourceRequirements
 <td>
 <code>flow</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericAPISpec">
 AstarteGenericAPISpec
 </a>
 </em>
@@ -1286,7 +1286,7 @@ AstarteGenericAPISpec
 <td>
 <code>housekeeping</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericComponentSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericComponentSpec">
 AstarteGenericComponentSpec
 </a>
 </em>
@@ -1299,7 +1299,7 @@ AstarteGenericComponentSpec
 <td>
 <code>realmManagement</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericComponentSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericComponentSpec">
 AstarteGenericComponentSpec
 </a>
 </em>
@@ -1312,7 +1312,7 @@ AstarteGenericComponentSpec
 <td>
 <code>pairing</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericComponentSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericComponentSpec">
 AstarteGenericComponentSpec
 </a>
 </em>
@@ -1325,7 +1325,7 @@ AstarteGenericComponentSpec
 <td>
 <code>dataUpdaterPlant</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteDataUpdaterPlantSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteDataUpdaterPlantSpec">
 AstarteDataUpdaterPlantSpec
 </a>
 </em>
@@ -1338,7 +1338,7 @@ AstarteDataUpdaterPlantSpec
 <td>
 <code>appengineApi</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteAppengineAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteAppengineAPISpec">
 AstarteAppengineAPISpec
 </a>
 </em>
@@ -1351,7 +1351,7 @@ AstarteAppengineAPISpec
 <td>
 <code>triggerEngine</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteTriggerEngineSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteTriggerEngineSpec">
 AstarteTriggerEngineSpec
 </a>
 </em>
@@ -1364,7 +1364,7 @@ AstarteTriggerEngineSpec
 <td>
 <code>dashboard</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteDashboardSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteDashboardSpec">
 AstarteDashboardSpec
 </a>
 </em>
@@ -1375,10 +1375,10 @@ AstarteDashboardSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteDashboardConfigAuthSpec">AstarteDashboardConfigAuthSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteDashboardConfigAuthSpec">AstarteDashboardConfigAuthSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteDashboardConfigSpec">AstarteDashboardConfigSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteDashboardConfigSpec">AstarteDashboardConfigSpec</a>)
 </p>
 <div>
 </div>
@@ -1413,10 +1413,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteDashboardConfigSpec">AstarteDashboardConfigSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteDashboardConfigSpec">AstarteDashboardConfigSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteDashboardSpec">AstarteDashboardSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteDashboardSpec">AstarteDashboardSpec</a>)
 </p>
 <div>
 </div>
@@ -1498,7 +1498,7 @@ string
 <td>
 <code>auth</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteDashboardConfigAuthSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteDashboardConfigAuthSpec">
 []AstarteDashboardConfigAuthSpec
 </a>
 </em>
@@ -1509,10 +1509,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteDashboardSpec">AstarteDashboardSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteDashboardSpec">AstarteDashboardSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec</a>)
 </p>
 <div>
 </div>
@@ -1528,7 +1528,7 @@ string
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -1543,7 +1543,7 @@ AstarteGenericClusteredResource
 <td>
 <code>Config</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteDashboardConfigSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteDashboardConfigSpec">
 AstarteDashboardConfigSpec
 </a>
 </em>
@@ -1557,10 +1557,10 @@ AstarteDashboardConfigSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteDataUpdaterPlantSpec">AstarteDataUpdaterPlantSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteDataUpdaterPlantSpec">AstarteDataUpdaterPlantSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec</a>)
 </p>
 <div>
 </div>
@@ -1576,7 +1576,7 @@ AstarteDashboardConfigSpec
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -1616,10 +1616,10 @@ Defaults to 300</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteFeatures">AstarteFeatures
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteFeatures">AstarteFeatures
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 <p>AstarteFeatures enables/disables selectively a set of global features in Astarte</p>
@@ -1645,10 +1645,10 @@ bool
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteGenericAPISpec">AstarteGenericAPISpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteGenericAPISpec">AstarteGenericAPISpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteAppengineAPISpec">AstarteAppengineAPISpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteGenericComponentSpec">AstarteGenericComponentSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteAppengineAPISpec">AstarteAppengineAPISpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteGenericComponentSpec">AstarteGenericComponentSpec</a>)
 </p>
 <div>
 <p>AstarteGenericAPISpec represents a generic Astarte API Component in the Deployment spec</p>
@@ -1665,7 +1665,7 @@ bool
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -1689,10 +1689,10 @@ bool
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">AstarteGenericClusteredResource
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">AstarteGenericClusteredResource
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraSpec">AstarteCassandraSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteDashboardSpec">AstarteDashboardSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteDataUpdaterPlantSpec">AstarteDataUpdaterPlantSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteGenericAPISpec">AstarteGenericAPISpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteGenericComponentSpec">AstarteGenericComponentSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQSpec">AstarteRabbitMQSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteTriggerEngineSpec">AstarteTriggerEngineSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteVerneMQSpec">AstarteVerneMQSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraSpec">AstarteCassandraSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteDashboardSpec">AstarteDashboardSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteDataUpdaterPlantSpec">AstarteDataUpdaterPlantSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteGenericAPISpec">AstarteGenericAPISpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteGenericComponentSpec">AstarteGenericComponentSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQSpec">AstarteRabbitMQSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteTriggerEngineSpec">AstarteTriggerEngineSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteVerneMQSpec">AstarteVerneMQSpec</a>)
 </p>
 <div>
 </div>
@@ -1815,10 +1815,10 @@ Kubernetes core/v1.ResourceRequirements
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteGenericComponentSpec">AstarteGenericComponentSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteGenericComponentSpec">AstarteGenericComponentSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec</a>)
 </p>
 <div>
 </div>
@@ -1834,7 +1834,7 @@ Kubernetes core/v1.ResourceRequirements
 <td>
 <code>api</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericAPISpec">
 AstarteGenericAPISpec
 </a>
 </em>
@@ -1847,7 +1847,7 @@ AstarteGenericAPISpec
 <td>
 <code>backend</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -1858,10 +1858,10 @@ AstarteGenericClusteredResource
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteGenericIngressSpec">AstarteGenericIngressSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteGenericIngressSpec">AstarteGenericIngressSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressAPISpec">AstarteVoyagerIngressAPISpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressBrokerSpec">AstarteVoyagerIngressBrokerSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressAPISpec">AstarteVoyagerIngressAPISpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressBrokerSpec">AstarteVoyagerIngressBrokerSpec</a>)
 </p>
 <div>
 <p>AstarteGenericIngressSpec is a common struct for all Ingresses defined by AstarteVoyagerIngress</p>
@@ -1966,10 +1966,10 @@ map[string]string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstartePersistentStorageSpec">AstartePersistentStorageSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstartePersistentStorageSpec">AstartePersistentStorageSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">AstarteCFSSLSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraSpec">AstarteCassandraSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQSpec">AstarteRabbitMQSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteVerneMQSpec">AstarteVerneMQSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">AstarteCFSSLSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraSpec">AstarteCassandraSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQSpec">AstarteRabbitMQSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteVerneMQSpec">AstarteVerneMQSpec</a>)
 </p>
 <div>
 </div>
@@ -2020,10 +2020,10 @@ Kubernetes core/v1.Volume
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteRabbitMQConnectionSpec">AstarteRabbitMQConnectionSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteRabbitMQConnectionSpec">AstarteRabbitMQConnectionSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQSpec">AstarteRabbitMQSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQSpec">AstarteRabbitMQSpec</a>)
 </p>
 <div>
 </div>
@@ -2092,7 +2092,7 @@ string
 <td>
 <code>sslConfiguration</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQSSLConfigurationSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQSSLConfigurationSpec">
 AstarteRabbitMQSSLConfigurationSpec
 </a>
 </em>
@@ -2105,7 +2105,7 @@ AstarteRabbitMQSSLConfigurationSpec
 <td>
 <code>secret</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.LoginCredentialsSecret">
+<a href="#api.astarte-platform.org/v1alpha2.LoginCredentialsSecret">
 LoginCredentialsSecret
 </a>
 </em>
@@ -2116,10 +2116,10 @@ LoginCredentialsSecret
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteRabbitMQSSLConfigurationSpec">AstarteRabbitMQSSLConfigurationSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteRabbitMQSSLConfigurationSpec">AstarteRabbitMQSSLConfigurationSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQConnectionSpec">AstarteRabbitMQConnectionSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQConnectionSpec">AstarteRabbitMQConnectionSpec</a>)
 </p>
 <div>
 </div>
@@ -2178,10 +2178,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteRabbitMQSpec">AstarteRabbitMQSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteRabbitMQSpec">AstarteRabbitMQSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 </div>
@@ -2197,7 +2197,7 @@ string
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -2212,7 +2212,7 @@ AstarteGenericClusteredResource
 <td>
 <code>connection</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQConnectionSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQConnectionSpec">
 AstarteRabbitMQConnectionSpec
 </a>
 </em>
@@ -2225,7 +2225,7 @@ AstarteRabbitMQConnectionSpec
 <td>
 <code>storage</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstartePersistentStorageSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstartePersistentStorageSpec">
 AstartePersistentStorageSpec
 </a>
 </em>
@@ -2273,7 +2273,7 @@ in custom RabbitMQ installations.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteResourceEvent">AstarteResourceEvent
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteResourceEvent">AstarteResourceEvent
 (<code>string</code> alias)</h3>
 <div>
 <p>AstarteResourceEvent represents a v1.Event reason for various events. They are all stated
@@ -2312,10 +2312,10 @@ in this enum to ease understanding and as a reference to users.</p>
 </td>
 </tr></tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.Astarte">Astarte</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.Astarte">Astarte</a>)
 </p>
 <div>
 <p>AstarteSpec defines the desired state of Astarte</p>
@@ -2393,7 +2393,7 @@ Kubernetes apps/v1.DeploymentStrategy
 <td>
 <code>features</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteFeatures">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteFeatures">
 AstarteFeatures
 </a>
 </em>
@@ -2428,7 +2428,7 @@ string
 <td>
 <code>api</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteAPISpec">
 AstarteAPISpec
 </a>
 </em>
@@ -2440,7 +2440,7 @@ AstarteAPISpec
 <td>
 <code>rabbitmq</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQSpec">
 AstarteRabbitMQSpec
 </a>
 </em>
@@ -2453,7 +2453,7 @@ AstarteRabbitMQSpec
 <td>
 <code>cassandra</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraSpec">
 AstarteCassandraSpec
 </a>
 </em>
@@ -2466,7 +2466,7 @@ AstarteCassandraSpec
 <td>
 <code>vernemq</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVerneMQSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVerneMQSpec">
 AstarteVerneMQSpec
 </a>
 </em>
@@ -2478,7 +2478,7 @@ AstarteVerneMQSpec
 <td>
 <code>cfssl</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteCFSSLSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteCFSSLSpec">
 AstarteCFSSLSpec
 </a>
 </em>
@@ -2491,7 +2491,7 @@ AstarteCFSSLSpec
 <td>
 <code>components</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">
 AstarteComponentsSpec
 </a>
 </em>
@@ -2504,7 +2504,7 @@ AstarteComponentsSpec
 <td>
 <code>astarteSystemKeyspace</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteSystemKeyspaceSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteSystemKeyspaceSpec">
 AstarteSystemKeyspaceSpec
 </a>
 </em>
@@ -2530,10 +2530,10 @@ know exactly what you are doing.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteStatus">AstarteStatus
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteStatus">AstarteStatus
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.Astarte">Astarte</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.Astarte">Astarte</a>)
 </p>
 <div>
 <p>AstarteStatus defines the observed state of Astarte</p>
@@ -2550,7 +2550,7 @@ know exactly what you are doing.</p>
 <td>
 <code>phase</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.ReconciliationPhase">
+<a href="#api.astarte-platform.org/v1alpha2.ReconciliationPhase">
 ReconciliationPhase
 </a>
 </em>
@@ -2582,7 +2582,7 @@ string
 <td>
 <code>health</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteClusterHealth">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteClusterHealth">
 AstarteClusterHealth
 </a>
 </em>
@@ -2612,10 +2612,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteSystemKeyspaceSpec">AstarteSystemKeyspaceSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteSystemKeyspaceSpec">AstarteSystemKeyspaceSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 <p>astarteSystemKeyspace configures the main system keyspace for Astarte. As of now, these settings
@@ -2643,10 +2643,10 @@ int
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteTriggerEngineSpec">AstarteTriggerEngineSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteTriggerEngineSpec">AstarteTriggerEngineSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteComponentsSpec">AstarteComponentsSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteComponentsSpec">AstarteComponentsSpec</a>)
 </p>
 <div>
 </div>
@@ -2662,7 +2662,7 @@ int
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -2703,10 +2703,10 @@ breakage within Trigger Engine.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVerneMQSpec">AstarteVerneMQSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVerneMQSpec">AstarteVerneMQSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteSpec">AstarteSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteSpec">AstarteSpec</a>)
 </p>
 <div>
 </div>
@@ -2722,7 +2722,7 @@ breakage within Trigger Engine.</p>
 <td>
 <code>AstarteGenericClusteredResource</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericClusteredResource">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericClusteredResource">
 AstarteGenericClusteredResource
 </a>
 </em>
@@ -2769,7 +2769,7 @@ string
 <td>
 <code>storage</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstartePersistentStorageSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstartePersistentStorageSpec">
 AstartePersistentStorageSpec
 </a>
 </em>
@@ -2866,7 +2866,7 @@ The field will be used only if SSLListener is set to true.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngress">AstarteVoyagerIngress
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngress">AstarteVoyagerIngress
 </h3>
 <div>
 <p>AstarteVoyagerIngress is the Schema for the astartevoyageringresses API</p>
@@ -2883,7 +2883,7 @@ The field will be used only if SSLListener is set to true.</p>
 <td>
 <code>status</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressStatus">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressStatus">
 AstarteVoyagerIngressStatus
 </a>
 </em>
@@ -2895,7 +2895,7 @@ AstarteVoyagerIngressStatus
 <td>
 <code>spec</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressSpec">
 AstarteVoyagerIngressSpec
 </a>
 </em>
@@ -2931,7 +2931,7 @@ string
 <td>
 <code>api</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressAPISpec">
 AstarteVoyagerIngressAPISpec
 </a>
 </em>
@@ -2944,7 +2944,7 @@ AstarteVoyagerIngressAPISpec
 <td>
 <code>dashboard</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressDashboardSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressDashboardSpec">
 AstarteVoyagerIngressDashboardSpec
 </a>
 </em>
@@ -2957,7 +2957,7 @@ AstarteVoyagerIngressDashboardSpec
 <td>
 <code>broker</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressBrokerSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressBrokerSpec">
 AstarteVoyagerIngressBrokerSpec
 </a>
 </em>
@@ -2970,7 +2970,7 @@ AstarteVoyagerIngressBrokerSpec
 <td>
 <code>letsencrypt</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressLetsEncryptSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressLetsEncryptSpec">
 AstarteVoyagerIngressLetsEncryptSpec
 </a>
 </em>
@@ -2998,10 +2998,10 @@ Refer to the Kubernetes API documentation for the fields of the
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressAPISpec">AstarteVoyagerIngressAPISpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressAPISpec">AstarteVoyagerIngressAPISpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
 </p>
 <div>
 <p>AstarteVoyagerIngressAPISpec defines the specification of the APIs</p>
@@ -3018,7 +3018,7 @@ Refer to the Kubernetes API documentation for the fields of the
 <td>
 <code>AstarteGenericIngressSpec</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericIngressSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericIngressSpec">
 AstarteGenericIngressSpec
 </a>
 </em>
@@ -3081,10 +3081,10 @@ ACL src syntax (e.g.: 10.0.0.0/16)</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressBrokerSpec">AstarteVoyagerIngressBrokerSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressBrokerSpec">AstarteVoyagerIngressBrokerSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
 </p>
 <div>
 <p>AstarteVoyagerIngressBrokerSpec defines the specification of the Broker</p>
@@ -3101,7 +3101,7 @@ ACL src syntax (e.g.: 10.0.0.0/16)</p>
 <td>
 <code>AstarteGenericIngressSpec</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteGenericIngressSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteGenericIngressSpec">
 AstarteGenericIngressSpec
 </a>
 </em>
@@ -3125,10 +3125,10 @@ int
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressDashboardSpec">AstarteVoyagerIngressDashboardSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressDashboardSpec">AstarteVoyagerIngressDashboardSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
 </p>
 <div>
 <p>AstarteVoyagerIngressDashboardSpec defines the specification of the Dashboard</p>
@@ -3189,10 +3189,10 @@ github.com/astarte-platform/astarte-kubernetes-operator/external/voyager/v1beta1
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressLetsEncryptSpec">AstarteVoyagerIngressLetsEncryptSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressLetsEncryptSpec">AstarteVoyagerIngressLetsEncryptSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec</a>)
 </p>
 <div>
 <p>AstarteVoyagerIngressLetsEncryptSpec defines the specification of the Let&rsquo;s Encrypt Integration</p>
@@ -3275,10 +3275,10 @@ github.com/astarte-platform/astarte-kubernetes-operator/external/voyager/v1beta1
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressSpec">AstarteVoyagerIngressSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngress">AstarteVoyagerIngress</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngress">AstarteVoyagerIngress</a>)
 </p>
 <div>
 <p>AstarteVoyagerIngressSpec defines the desired state of AstarteVoyagerIngress</p>
@@ -3318,7 +3318,7 @@ string
 <td>
 <code>api</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressAPISpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressAPISpec">
 AstarteVoyagerIngressAPISpec
 </a>
 </em>
@@ -3331,7 +3331,7 @@ AstarteVoyagerIngressAPISpec
 <td>
 <code>dashboard</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressDashboardSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressDashboardSpec">
 AstarteVoyagerIngressDashboardSpec
 </a>
 </em>
@@ -3344,7 +3344,7 @@ AstarteVoyagerIngressDashboardSpec
 <td>
 <code>broker</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressBrokerSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressBrokerSpec">
 AstarteVoyagerIngressBrokerSpec
 </a>
 </em>
@@ -3357,7 +3357,7 @@ AstarteVoyagerIngressBrokerSpec
 <td>
 <code>letsencrypt</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressLetsEncryptSpec">
+<a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressLetsEncryptSpec">
 AstarteVoyagerIngressLetsEncryptSpec
 </a>
 </em>
@@ -3368,10 +3368,10 @@ AstarteVoyagerIngressLetsEncryptSpec
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.AstarteVoyagerIngressStatus">AstarteVoyagerIngressStatus
+<h3 id="api.astarte-platform.org/v1alpha2.AstarteVoyagerIngressStatus">AstarteVoyagerIngressStatus
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteVoyagerIngress">AstarteVoyagerIngress</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteVoyagerIngress">AstarteVoyagerIngress</a>)
 </p>
 <div>
 <p>AstarteVoyagerIngressStatus defines the observed state of AstarteVoyagerIngress</p>
@@ -3386,10 +3386,10 @@ AstarteVoyagerIngressLetsEncryptSpec
 <tbody>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.BlockWorker">BlockWorker
+<h3 id="api.astarte-platform.org/v1alpha2.BlockWorker">BlockWorker
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.ContainerBlockSpec">ContainerBlockSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.ContainerBlockSpec">ContainerBlockSpec</a>)
 </p>
 <div>
 <p>BlockWorker defines a Worker for a Container Block</p>
@@ -3416,7 +3416,7 @@ string
 <td>
 <code>dataProvider</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.DataProvider">
+<a href="#api.astarte-platform.org/v1alpha2.DataProvider">
 DataProvider
 </a>
 </em>
@@ -3426,10 +3426,10 @@ DataProvider
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.ContainerBlockSpec">ContainerBlockSpec
+<h3 id="api.astarte-platform.org/v1alpha2.ContainerBlockSpec">ContainerBlockSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.FlowSpec">FlowSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.FlowSpec">FlowSpec</a>)
 </p>
 <div>
 <p>ContainerBlockSpec defines a Container Block in a Flow</p>
@@ -3516,7 +3516,7 @@ string
 <td>
 <code>workers</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.BlockWorker">
+<a href="#api.astarte-platform.org/v1alpha2.BlockWorker">
 []BlockWorker
 </a>
 </em>
@@ -3526,10 +3526,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.DataProvider">DataProvider
+<h3 id="api.astarte-platform.org/v1alpha2.DataProvider">DataProvider
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.BlockWorker">BlockWorker</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.BlockWorker">BlockWorker</a>)
 </p>
 <div>
 <p>DataProvider is a struct which defines which Data Providers (e.g. Brokers) are available for a
@@ -3547,7 +3547,7 @@ Worker</p>
 <td>
 <code>rabbitmq</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.RabbitMQDataProvider">
+<a href="#api.astarte-platform.org/v1alpha2.RabbitMQDataProvider">
 RabbitMQDataProvider
 </a>
 </em>
@@ -3558,7 +3558,7 @@ RabbitMQDataProvider
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.Flow">Flow
+<h3 id="api.astarte-platform.org/v1alpha2.Flow">Flow
 </h3>
 <div>
 <p>Flow is the Schema for the flows API</p>
@@ -3589,7 +3589,7 @@ Refer to the Kubernetes API documentation for the fields of the
 <td>
 <code>spec</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.FlowSpec">
+<a href="#api.astarte-platform.org/v1alpha2.FlowSpec">
 FlowSpec
 </a>
 </em>
@@ -3661,7 +3661,7 @@ Kubernetes core/v1.LocalObjectReference
 <td>
 <code>blocks</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.ContainerBlockSpec">
+<a href="#api.astarte-platform.org/v1alpha2.ContainerBlockSpec">
 []ContainerBlockSpec
 </a>
 </em>
@@ -3676,7 +3676,7 @@ Kubernetes core/v1.LocalObjectReference
 <td>
 <code>status</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.FlowStatus">
+<a href="#api.astarte-platform.org/v1alpha2.FlowStatus">
 FlowStatus
 </a>
 </em>
@@ -3686,10 +3686,10 @@ FlowStatus
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.FlowSpec">FlowSpec
+<h3 id="api.astarte-platform.org/v1alpha2.FlowSpec">FlowSpec
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.Flow">Flow</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.Flow">Flow</a>)
 </p>
 <div>
 <p>FlowSpec defines the desired state of Flow</p>
@@ -3765,7 +3765,7 @@ Kubernetes core/v1.LocalObjectReference
 <td>
 <code>blocks</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.ContainerBlockSpec">
+<a href="#api.astarte-platform.org/v1alpha2.ContainerBlockSpec">
 []ContainerBlockSpec
 </a>
 </em>
@@ -3775,10 +3775,10 @@ Kubernetes core/v1.LocalObjectReference
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.FlowState">FlowState
+<h3 id="api.astarte-platform.org/v1alpha2.FlowState">FlowState
 (<code>string</code> alias)</h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.FlowStatus">FlowStatus</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.FlowStatus">FlowStatus</a>)
 </p>
 <div>
 <p>FlowState describes the global state of a Flow</p>
@@ -3808,10 +3808,10 @@ It usually transitions to this State before moving to Flowing.</p>
 </td>
 </tr></tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.FlowStatus">FlowStatus
+<h3 id="api.astarte-platform.org/v1alpha2.FlowStatus">FlowStatus
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.Flow">Flow</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.Flow">Flow</a>)
 </p>
 <div>
 <p>FlowStatus defines the observed state of Flow</p>
@@ -3828,7 +3828,7 @@ It usually transitions to this State before moving to Flowing.</p>
 <td>
 <code>state</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.FlowState">
+<a href="#api.astarte-platform.org/v1alpha2.FlowState">
 FlowState
 </a>
 </em>
@@ -3902,10 +3902,10 @@ if any of the Blocks is in such state. When present, manual intervention is most
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.LoginCredentialsSecret">LoginCredentialsSecret
+<h3 id="api.astarte-platform.org/v1alpha2.LoginCredentialsSecret">LoginCredentialsSecret
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteCassandraConnectionSpec">AstarteCassandraConnectionSpec</a>, <a href="#api.astarte-platform.org/v1alpha1.AstarteRabbitMQConnectionSpec">AstarteRabbitMQConnectionSpec</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteCassandraConnectionSpec">AstarteCassandraConnectionSpec</a>, <a href="#api.astarte-platform.org/v1alpha2.AstarteRabbitMQConnectionSpec">AstarteRabbitMQConnectionSpec</a>)
 </p>
 <div>
 </div>
@@ -3949,10 +3949,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.RabbitMQConfig">RabbitMQConfig
+<h3 id="api.astarte-platform.org/v1alpha2.RabbitMQConfig">RabbitMQConfig
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.RabbitMQDataProvider">RabbitMQDataProvider</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.RabbitMQDataProvider">RabbitMQDataProvider</a>)
 </p>
 <div>
 <p>RabbitMQConfig represents configuration for RabbitMQ</p>
@@ -4019,10 +4019,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.RabbitMQDataProvider">RabbitMQDataProvider
+<h3 id="api.astarte-platform.org/v1alpha2.RabbitMQDataProvider">RabbitMQDataProvider
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.DataProvider">DataProvider</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.DataProvider">DataProvider</a>)
 </p>
 <div>
 <p>RabbitMQDataProvider is a representation of a Data Provider based upon RabbitMQ</p>
@@ -4050,7 +4050,7 @@ string
 <td>
 <code>exchange</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.RabbitMQExchange">
+<a href="#api.astarte-platform.org/v1alpha2.RabbitMQExchange">
 RabbitMQExchange
 </a>
 </em>
@@ -4063,7 +4063,7 @@ RabbitMQExchange
 <td>
 <code>rabbitmq</code><br/>
 <em>
-<a href="#api.astarte-platform.org/v1alpha1.RabbitMQConfig">
+<a href="#api.astarte-platform.org/v1alpha2.RabbitMQConfig">
 RabbitMQConfig
 </a>
 </em>
@@ -4076,10 +4076,10 @@ broker. If not specified, Astarte&rsquo;s main Broker will be used.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.RabbitMQExchange">RabbitMQExchange
+<h3 id="api.astarte-platform.org/v1alpha2.RabbitMQExchange">RabbitMQExchange
 </h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.RabbitMQDataProvider">RabbitMQDataProvider</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.RabbitMQDataProvider">RabbitMQDataProvider</a>)
 </p>
 <div>
 <p>RabbitMQExchange is a representation of a RabbitMQ Exchange</p>
@@ -4114,10 +4114,10 @@ string
 </tr>
 </tbody>
 </table>
-<h3 id="api.astarte-platform.org/v1alpha1.ReconciliationPhase">ReconciliationPhase
+<h3 id="api.astarte-platform.org/v1alpha2.ReconciliationPhase">ReconciliationPhase
 (<code>string</code> alias)</h3>
 <p>
-(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha1.AstarteStatus">AstarteStatus</a>)
+(<em>Appears on:</em><a href="#api.astarte-platform.org/v1alpha2.AstarteStatus">AstarteStatus</a>)
 </p>
 <div>
 <p>ReconciliationPhase describes the reconciliation phase the Resource is in</p>
@@ -4157,5 +4157,5 @@ When successful, the Resource will transition to ReconciliationPhaseReconciling<
 <hr/>
 <p><em>
 Generated with <code>gen-crd-api-reference-docs</code>
-on git commit <code>7d90845</code>.
+on git commit <code>2725e75</code>.
 </em></p>

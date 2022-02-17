@@ -19,6 +19,7 @@ KUSTOMIZE_VERSION = v3.8.7
 # Conversion-gen version should match the older k8s version supported by the operator. 
 # Note: the major lags behind by one (see https://github.com/kubernetes/code-generator#where-does-it-come-from).
 CONVERSION_GEN_VERSION = v0.19.16 
+GEN_CRD_API_REFERENCE_DOCS_VERSION=v0.3.1-0.20220212205440-394c85f08dab
 
 # ENVTEST_K8S_VERSION refers to the version of kubebuilder assets to be downloaded by envtest binary.
 ENVTEST_K8S_VERSION = 1.23
@@ -209,7 +210,7 @@ ifeq (, $(shell which gen-crd-api-reference-docs))
 	DOCS_GEN_TMP_DIR=$$(mktemp -d) ;\
 	cd $$DOCS_GEN_TMP_DIR ;\
 	go mod init tmp ;\
-	go get github.com/ahmetb/gen-crd-api-reference-docs ;\
+	go get github.com/ahmetb/gen-crd-api-reference-docs@${GEN_CRD_API_REFERENCE_DOCS_VERSION} ;\
 	rm -rf $$DOCS_GEN_TMP_DIR ;\
 	}
 DOCS_GEN=$(GOBIN)/gen-crd-api-reference-docs
@@ -220,9 +221,9 @@ endif
 DOCS_GEN_ARGS := -config docs/autogen/config.json -template-dir docs/autogen/template 
 .PHONY: api-docs
 api-docs: gen-crd-api-reference-docs ## Generate API reference documentation from code.
-	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/api/v1alpha1" -out-file docs/api-v1alpha1.md
-	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/api/v1alpha2" -out-file docs/api-v1alpha2.md
-	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/ingress/v1alpha1" -out-file docs/ingress-v1alpha1.md
+	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/api/v1alpha1" -out-file docs/autogen/content/docs/api-v1alpha1.md
+	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/api/v1alpha2" -out-file docs/autogen/content/docs/api-v1alpha2.md
+	$(DOCS_GEN) $(DOCS_GEN_ARGS) -api-dir "github.com/astarte-platform/astarte-kubernetes-operator/apis/ingress/v1alpha1" -out-file docs/autogen/content/docs/ingress-v1alpha1.md
 
 ##@ Linter
 

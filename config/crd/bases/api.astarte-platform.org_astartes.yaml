@@ -1217,7 +1217,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   replicas:
                     format: int32
@@ -3071,7 +3072,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   resources:
                     description: Compute Resources for this Component.
@@ -5790,7 +5792,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       replicas:
                         format: int32
@@ -6962,7 +6966,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       realmManagementApiUrl:
                         type: string
@@ -8092,7 +8098,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       prefetchCount:
                         description: Controls the prefetch count for Data Updater
@@ -9231,7 +9239,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       replicas:
                         format: int32
@@ -10431,7 +10441,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -11631,7 +11643,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -12844,7 +12858,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -14044,7 +14060,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -15251,7 +15269,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -16451,7 +16471,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -17624,7 +17646,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       replicas:
                         format: int32
@@ -18906,7 +18930,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   replicas:
                     format: int32
@@ -21606,7 +21631,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   port:
                     type: integer
@@ -24482,7 +24508,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   replicas:
                     format: int32
@@ -26336,7 +26363,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   resources:
                     description: Compute Resources for this Component.
@@ -29055,7 +29083,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       replicas:
                         format: int32
@@ -30227,7 +30257,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       realmManagementApiUrl:
                         type: string
@@ -31357,7 +31389,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       prefetchCount:
                         description: Controls the prefetch count for Data Updater
@@ -32496,7 +32530,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       replicas:
                         format: int32
@@ -33696,7 +33732,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -34896,7 +34934,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -36109,7 +36149,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -37309,7 +37351,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -38516,7 +38560,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -39716,7 +39762,9 @@ spec:
                           podLabels:
                             additionalProperties:
                               type: string
-                            description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                            description: Additional labels for this Component's pod(s).
+                              Label keys can't be of the form "app", "component",
+                              "astarte-*", "flow-*"
                             type: object
                           replicas:
                             format: int32
@@ -40889,7 +40937,9 @@ spec:
                       podLabels:
                         additionalProperties:
                           type: string
-                        description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                        description: Additional labels for this Component's pod(s).
+                          Label keys can't be of the form "app", "component", "astarte-*",
+                          "flow-*"
                         type: object
                       replicas:
                         format: int32
@@ -42171,7 +42221,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   replicas:
                     format: int32
@@ -44871,7 +44922,8 @@ spec:
                   podLabels:
                     additionalProperties:
                       type: string
-                    description: Additional labels for this Component's pod(s). Label keys can't be of the form "app", "component", "astarte-*", "flow-*"
+                    description: Additional labels for this Component's pod(s). Label
+                      keys can't be of the form "app", "component", "astarte-*", "flow-*"
                     type: object
                   port:
                     type: integer

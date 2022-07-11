@@ -121,7 +121,8 @@ spec:
                   serviceAnnotations:
                     additionalProperties:
                       type: string
-                    description: Additional annotations for the service exposing this broker.
+                    description: Additional annotations for the service exposing this
+                      broker.
                     type: object
                   serviceType:
                     description: 'Set the type of service employed to expose the broker.
@@ -189,9 +190,8 @@ spec:
             - astarte
             type: object
           status:
-            description: AstarteDefaultIngressStatus defines the observed status of
-              AstarteDefaultIngress. It states if the external IPs are properly assigned
-              and the services are exposed to the outer world.
+            description: AstarteDefaultIngressStatus defines the observed state of
+              AstarteDefaultIngress
             properties:
               api:
                 description: IngressStatus describe the current state of the Ingress.

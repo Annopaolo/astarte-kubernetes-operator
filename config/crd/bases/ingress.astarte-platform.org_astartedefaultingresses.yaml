@@ -118,6 +118,11 @@ spec:
                       the cloud provider supports specifying the LoadBalancerIP when
                       a load balancer is created.
                     type: string
+                  serviceAnnotations:
+                    additionalProperties:
+                      type: string
+                    description: Additional annotations for the service exposing this broker.
+                    type: object
                   serviceType:
                     description: 'Set the type of service employed to expose the broker.
                       Supported values are "NodePort" and "LoadBalancer". The AstarteDefaultIngress

@@ -160,6 +160,59 @@ func getAstarteGenericBackendPodSpec(deploymentName string, replicaIndex, replic
 		}
 	}
 
+	// TODO these might be nil pointers,check that
+	if cr.Spec.RabbitMQ.Connection.SSLConfiguration.CustomCASecret.Name != "" {
+
+		initContainerVolumeMounts := []v1.VolumeMount{
+			{
+				Name:      "load-ca-cert",
+				MountPath: "/usr/local/share/ca-certificates/rabbitmq-ca.crt",
+				SubPath:   "rabbitmq-ca.pem",
+				ReadOnly:  false,
+			},
+			{
+				Name:      "tmp",
+				MountPath: "/rabbitmq-ca",
+				ReadOnly:  false,
+			},
+		}
+
+		ps.InitContainers = append(ps.InitContainers, v1.Container{
+			Name:         component.DashedString() + "-init",
+			Image:        "grafana/alpine:3.15.4",
+			Command:      []string{"/bin/sh", "-c"},
+			Args:         []string{"update-ca-certificates && cp -r /etc/ssl/certs/* /rabbitmq-ca/"},
+			VolumeMounts: initContainerVolumeMounts,
+		})
+
+		mainContainerVolumeMount := v1.VolumeMount{
+			Name:      "tmp",
+			MountPath: "/etc/ssl/certs",
+			ReadOnly:  false,
+		}
+
+		ps.Containers[0].VolumeMounts = append(ps.Containers[0].VolumeMounts, mainContainerVolumeMount)
+
+		certVolume := v1.Volume{
+			Name: "load-ca-cert",
+			VolumeSource: v1.VolumeSource{
+				ConfigMap: &v1.ConfigMapVolumeSource{
+					LocalObjectReference: cr.Spec.RabbitMQ.Connection.SSLConfiguration.CustomCASecret,
+				},
+			},
+		}
+		ps.Volumes = append(ps.Volumes, certVolume)
+
+		tmpVolume := v1.Volume{
+			Name: "tmp",
+			VolumeSource: v1.VolumeSource{
+				EmptyDir: &v1.EmptyDirVolumeSource{},
+			},
+		}
+
+		ps.Volumes = append(ps.Volumes, tmpVolume)
+
+	}
 	return ps
 }
 
